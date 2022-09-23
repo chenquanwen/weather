@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp">
+
+    <TextView
+        android:id="@+id/Day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/DayIcon"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/dayInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/DailyTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
